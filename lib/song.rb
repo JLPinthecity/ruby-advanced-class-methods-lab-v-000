@@ -50,7 +50,6 @@ class Song
     artist_name = file [0]
     mp3 = file[1].split(".")
     name =  mp3[0]
-    binding.pry
     song = self.create_by_name(name)
     song.artist = artist_name
     song
