@@ -20,8 +20,6 @@ class Song
     song = self.new
     song.name = name
     song
-    binding.pry
-#returns song instance with that name set as its name property
   end
 
 
