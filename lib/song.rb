@@ -47,13 +47,13 @@ class Song
 
   def self.new_from_filename(filename)
     file = filename.split(" - ")
-    artist_name = file [0]
+    artist = file [0]
     mp3 = file[1].split(".")
     name =  mp3[0]
-    song = self.create_by_name(name)
+    song = self.new
+    song.name = name
     song.artist = artist_name
     song
-    binding.pry
   end
 
 
