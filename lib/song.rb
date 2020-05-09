@@ -16,8 +16,11 @@ class Song
     song
   end
 
-  def self.new_by_name
+  def self.new_by_name(name)
+binding.pry
 
+
+#returns song instance with that name set as its name property
   end
 
 
