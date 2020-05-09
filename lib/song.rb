@@ -18,9 +18,9 @@ class Song
 
   def self.new_by_name(name)
     song = self.new
+    binding.pry
     song.name = song_name
     song
-    binding.pry
 #returns song instance with that name set as its name property
   end
 
