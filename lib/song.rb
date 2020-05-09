@@ -50,10 +50,10 @@ class Song
     song[0]
     binding.pry
     self.create_by_name()
-    
-    
+
+
   end
-  
+
 
 
 
