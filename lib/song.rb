@@ -52,7 +52,7 @@ class Song
     name =  mp3[0]
     binding.pry
     song = self.create_by_name(name)
-    song.= = file[0]
+    song.artist = artist_name
     song
   end
 
