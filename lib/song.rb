@@ -52,7 +52,7 @@ class Song
     name =  mp3[0]
     song = self.new
     song.name = name
-    song.artist_name = artist_name
+    song.artist_name = artist
     song
   end
 
